@@ -11,19 +11,24 @@
     <title>SLAP Game</title>
 </head>
 
-<body>
-    <header>
+<body id="dead">
+    <header class="text-center">
         <h1>SLAP GAME</h1>
     </header>
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-6">
-                <img class="target" src="https://via.placeholder.com/200" alt="">
+            <div class="col-12 col-sm-6">
+                <img class="img-fluid" id="target"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/58a89289-2132-4ee4-bead-7f2f68fc852a/dd2wjgs-8777fe58-2750-4b71-bfa9-2501c1e7dad2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU4YTg5Mjg5LTIxMzItNGVlNC1iZWFkLTdmMmY2OGZjODUyYVwvZGQyd2pncy04Nzc3ZmU1OC0yNzUwLTRiNzEtYmZhOS0yNTAxYzFlN2RhZDIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xENB7eu2y6JU4zRLO1sgWB_6EhoSa39BtYsn8_7fN0o"
+                    alt="">
+                <br>
                 <span>Name:<span id="name"></span></span>
+                <br>
                 <span>Health:<span id="health"></span></span>
+                <br>
                 <span>Hits:<span id="hits"></span></span>
             </div>
-            <div class="col-6 text-center">
+            <div class="col-12 col-sm-6 text-center" id="button-section">
                 <button type="button" onclick="slap()" class="btn btn-danger">SLAP</button>
                 <button type="button" onclick="punch()" class="btn btn-danger">PUNCH</button>
                 <button type="button" onclick="kick()" class="btn btn-danger">KICK</button>
