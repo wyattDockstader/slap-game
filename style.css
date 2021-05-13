@@ -1,6 +1,8 @@
 
 .bg-normal{
-    background-size: cover;
+    width: 100%;
+    height: auto;
+
 background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/58a89289-2132-4ee4-bead-7f2f68fc852a/dd2wjgs-8777fe58-2750-4b71-bfa9-2501c1e7dad2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU4YTg5Mjg5LTIxMzItNGVlNC1iZWFkLTdmMmY2OGZjODUyYVwvZGQyd2pncy04Nzc3ZmU1OC0yNzUwLTRiNzEtYmZhOS0yNTAxYzFlN2RhZDIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xENB7eu2y6JU4zRLO1sgWB_6EhoSa39BtYsn8_7fN0o);
 }
 .bg-beat{
@@ -11,4 +13,10 @@ background-image: url(https://campustocareer.files.wordpress.com/2011/06/wile-e-
 }
 .bg-dead{
 background-image: url(https://www.postcarbon.org/wp-content/uploads/2018/08/Wile-e-coyote-800.jpg);
+}
+.main{
+    background-image: url(https://wallpapercave.com/wp/wp1866632.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
 }
